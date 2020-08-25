@@ -32,6 +32,17 @@
       </list>
     </option>
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -45,6 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -91,7 +103,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Flask" type="Python.FlaskServer" nameIsGenerated="true">
+      <module name="MyReceipts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Flask server.Flask" />
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.main" />
     </list>
@@ -109,7 +135,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598175509563</updated>
-      <workItem from="1598175511868" duration="139000" />
+      <workItem from="1598175511868" duration="338000" />
+      <workItem from="1598175871142" duration="730000" />
     </task>
     <servers />
   </component>
@@ -126,31 +153,37 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="104" y="71" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598175612944">
+    <state x="104" y="48" width="1071" height="748" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598175800103">
       <screen x="0" y="23" width="1280" height="773" />
     </state>
-    <state x="104" y="71" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.773@0.23.1280.773" timestamp="1598175612944" />
-    <state width="1218" height="183" key="GridCell.Tab.0.bottom" timestamp="1598175648910">
+    <state x="104" y="48" width="1071" height="748" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.773@0.23.1280.773" timestamp="1598175800103" />
+    <state width="1218" height="189" key="GridCell.Tab.0.bottom" timestamp="1598386298875">
       <screen x="0" y="23" width="1280" height="773" />
     </state>
-    <state width="1218" height="183" key="GridCell.Tab.0.bottom/0.23.1280.773@0.23.1280.773" timestamp="1598175648910" />
-    <state width="1218" height="183" key="GridCell.Tab.0.center" timestamp="1598175648909">
+    <state width="1218" height="189" key="GridCell.Tab.0.bottom/0.23.1280.773@0.23.1280.773" timestamp="1598386298875" />
+    <state width="1218" height="189" key="GridCell.Tab.0.center" timestamp="1598386298874">
       <screen x="0" y="23" width="1280" height="773" />
     </state>
-    <state width="1218" height="183" key="GridCell.Tab.0.center/0.23.1280.773@0.23.1280.773" timestamp="1598175648909" />
-    <state width="1218" height="183" key="GridCell.Tab.0.left" timestamp="1598175648908">
+    <state width="1218" height="189" key="GridCell.Tab.0.center/0.23.1280.773@0.23.1280.773" timestamp="1598386298874" />
+    <state width="1218" height="189" key="GridCell.Tab.0.left" timestamp="1598386298874">
       <screen x="0" y="23" width="1280" height="773" />
     </state>
-    <state width="1218" height="183" key="GridCell.Tab.0.left/0.23.1280.773@0.23.1280.773" timestamp="1598175648908" />
-    <state width="1218" height="183" key="GridCell.Tab.0.right" timestamp="1598175648909">
+    <state width="1218" height="189" key="GridCell.Tab.0.left/0.23.1280.773@0.23.1280.773" timestamp="1598386298874" />
+    <state width="1218" height="189" key="GridCell.Tab.0.right" timestamp="1598386298875">
       <screen x="0" y="23" width="1280" height="773" />
     </state>
-    <state width="1218" height="183" key="GridCell.Tab.0.right/0.23.1280.773@0.23.1280.773" timestamp="1598175648909" />
+    <state width="1218" height="189" key="GridCell.Tab.0.right/0.23.1280.773@0.23.1280.773" timestamp="1598386298875" />
+    <state x="142" y="38" key="SettingsEditor" timestamp="1598386232778">
+      <screen x="0" y="23" width="1280" height="773" />
+    </state>
+    <state x="142" y="38" key="SettingsEditor/0.23.1280.773@0.23.1280.773" timestamp="1598386232778" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MyReceipts$main.coverage" NAME="main Coverage Results" MODIFIED="1598175648874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MyReceipts$main.coverage" NAME="main Coverage Results" MODIFIED="1598386298862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MyReceipts$Flask.coverage" NAME="Flask Coverage Results" MODIFIED="1598176027664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/MyReceipts$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1598175613287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
