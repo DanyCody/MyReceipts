@@ -58,6 +58,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="MyReceipts" />
@@ -136,7 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598175509563</updated>
       <workItem from="1598175511868" duration="338000" />
-      <workItem from="1598175871142" duration="2971000" />
+      <workItem from="1598175871142" duration="5018000" />
     </task>
     <servers />
   </component>
@@ -164,29 +169,29 @@
       <screen x="0" y="23" width="1280" height="773" />
     </state>
     <state x="104" y="48" width="1071" height="748" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.773@0.23.1280.773" timestamp="1598175800103" />
-    <state width="1218" height="189" key="GridCell.Tab.0.bottom" timestamp="1598444504605">
+    <state width="1218" height="189" key="GridCell.Tab.0.bottom" timestamp="1598561636387">
       <screen x="0" y="23" width="1280" height="773" />
     </state>
-    <state width="1218" height="189" key="GridCell.Tab.0.bottom/0.23.1280.773@0.23.1280.773" timestamp="1598444504605" />
-    <state width="1218" height="189" key="GridCell.Tab.0.center" timestamp="1598444504605">
+    <state width="1218" height="189" key="GridCell.Tab.0.bottom/0.23.1280.773@0.23.1280.773" timestamp="1598561636387" />
+    <state width="1218" height="189" key="GridCell.Tab.0.center" timestamp="1598561636386">
       <screen x="0" y="23" width="1280" height="773" />
     </state>
-    <state width="1218" height="189" key="GridCell.Tab.0.center/0.23.1280.773@0.23.1280.773" timestamp="1598444504605" />
-    <state width="1218" height="189" key="GridCell.Tab.0.left" timestamp="1598444504604">
+    <state width="1218" height="189" key="GridCell.Tab.0.center/0.23.1280.773@0.23.1280.773" timestamp="1598561636386" />
+    <state width="1218" height="189" key="GridCell.Tab.0.left" timestamp="1598561636385">
       <screen x="0" y="23" width="1280" height="773" />
     </state>
-    <state width="1218" height="189" key="GridCell.Tab.0.left/0.23.1280.773@0.23.1280.773" timestamp="1598444504604" />
-    <state width="1218" height="189" key="GridCell.Tab.0.right" timestamp="1598444504605">
+    <state width="1218" height="189" key="GridCell.Tab.0.left/0.23.1280.773@0.23.1280.773" timestamp="1598561636385" />
+    <state width="1218" height="189" key="GridCell.Tab.0.right" timestamp="1598561636386">
       <screen x="0" y="23" width="1280" height="773" />
     </state>
-    <state width="1218" height="189" key="GridCell.Tab.0.right/0.23.1280.773@0.23.1280.773" timestamp="1598444504605" />
-    <state x="142" y="38" key="SettingsEditor" timestamp="1598387011616">
+    <state width="1218" height="189" key="GridCell.Tab.0.right/0.23.1280.773@0.23.1280.773" timestamp="1598561636386" />
+    <state x="142" y="38" key="SettingsEditor" timestamp="1598562365460">
       <screen x="0" y="23" width="1280" height="773" />
     </state>
-    <state x="142" y="38" key="SettingsEditor/0.23.1280.773@0.23.1280.773" timestamp="1598387011616" />
+    <state x="142" y="38" key="SettingsEditor/0.23.1280.773@0.23.1280.773" timestamp="1598562365460" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MyReceipts$main.coverage" NAME="main Coverage Results" MODIFIED="1598444504589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MyReceipts$main.coverage" NAME="main Coverage Results" MODIFIED="1598561361508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MyReceipts$Flask.coverage" NAME="Flask Coverage Results" MODIFIED="1598176027664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/MyReceipts$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1598175613287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
