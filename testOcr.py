@@ -1,24 +1,17 @@
 from PIL import Image
 import numpy as np
-import optimizeImage
+import ocrToFile
 
 
 """ Load image from path. Return a numpy array """
-img = Image.open("img/image_Car1.jpg")
-image = np.array(img)
+#img = Image.open("img/image_Car1.jpg")
+#img = img.resize((1512,2016), Image.ANTIALIAS)
+#img = img.resize((756,1008), Image.ANTIALIAS)
+#img.save('img/Compressed_image_Car1.jpg', optimize=True, quality=95)
+img = Image.open("img/Compressed_image_Car1.jpg")
+res = ocrToFile.ocr(img)
+# res = ocrToFile.ocr(img.get_bytes())
+print(res)
 
-w, h, d = image.shape
-print('Image found with width: {}, height: {}, depth: {}'.format(w, h, d))
-
-X = image.reshape((w * h, d))
-K = 20  # the desired number of colors in the compressed image
-
-colors, _ = optimizeImage.find_k_means(X, K, max_iters=20)
-idx = optimizeImage.find_closest_centroids(X, colors)
-idx = np.array(idx, dtype=np.uint8)
-X_reconstructed = np.array(colors[idx, :] * 255, dtype=np.uint8).reshape((w, h, d))
-compressed_image = Image.fromarray(X_reconstructed)
-compressed_image.save('img/Compressed_image_Car1.jpg')
-print("Compressed 1 File Size In Bytes:- " + str(type(compressed_image)))
 
 #return np.asarray(image) / 255
