@@ -16,14 +16,16 @@ def image_info(img):
     print("call ok")
     print("Type Img : " + str(type(img)))
     print("Format img : " + img.content_type)
+    print("Length img : " + str(img.length))
+    print("Name img : " + img.name)
 
     #image = Image.frombytes('RGBA', (128, 128), img.get_bytes(), 'raw')
     image = Image.open(io.BytesIO(img.get_bytes()))
     print("File Size In Bytes:- " + str(len(image.fp.read())))
 
-    res = ocrToFile.ocr(image)
+    # res = ocrToFile.ocr(image)
     # res = ocrToFile.ocr(img.get_bytes())
-    print(res)
-    return 'Image type : ' + res
+    # print(res)
+    # return 'Image type : ' + res
 
 anvil.server.wait_forever()

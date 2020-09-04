@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21ec86ef-3fa5-4259-b9bd-7ae51d33834c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/saveImage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Compressed_image_Car1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/Compressed_image_Car1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/image_Car1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/image_Car1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ocrToFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrToFile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testOcr.py" beforeDir="false" afterPath="$PROJECT_DIR$/testOcr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +68,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python">
       <module name="MyReceipts" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,12 +77,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,7 +128,7 @@
     </configuration>
     <list>
       <item itemvalue="Flask server.Flask" />
-      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.main" />
       <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
@@ -152,7 +150,7 @@
       <workItem from="1598562600118" duration="2480000" />
       <workItem from="1598603689215" duration="8644000" />
       <workItem from="1598720572051" duration="5054000" />
-      <workItem from="1598885002976" duration="8530000" />
+      <workItem from="1598885002976" duration="16716000" />
     </task>
     <servers />
   </component>
@@ -176,30 +174,30 @@
       <screen x="0" y="23" width="1280" height="773" />
     </state>
     <state x="350" y="230" key="#Notifications/0.23.1280.773@0.23.1280.773" timestamp="1598563225707" />
-    <state x="104" y="24" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598705547552">
+    <state x="104" y="23" width="1071" height="773" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598960334674">
       <screen x="0" y="23" width="1280" height="773" />
     </state>
-    <state x="104" y="24" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.773@0.23.1280.773" timestamp="1598705547552" />
+    <state x="104" y="23" width="1071" height="773" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.773@0.23.1280.773" timestamp="1598960334674" />
     <state x="371" y="153" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598884438385">
       <screen x="0" y="23" width="1280" height="773" />
     </state>
     <state x="371" y="153" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.773@0.23.1280.773" timestamp="1598884438385" />
-    <state width="1218" height="189" key="GridCell.Tab.0.bottom" timestamp="1598945905199">
+    <state width="1218" height="189" key="GridCell.Tab.0.bottom" timestamp="1599200994118">
       <screen x="0" y="23" width="1280" height="773" />
     </state>
-    <state width="1218" height="189" key="GridCell.Tab.0.bottom/0.23.1280.773@0.23.1280.773" timestamp="1598945905199" />
-    <state width="1218" height="189" key="GridCell.Tab.0.center" timestamp="1598945905198">
+    <state width="1218" height="189" key="GridCell.Tab.0.bottom/0.23.1280.773@0.23.1280.773" timestamp="1599200994118" />
+    <state width="1218" height="189" key="GridCell.Tab.0.center" timestamp="1599200994118">
       <screen x="0" y="23" width="1280" height="773" />
     </state>
-    <state width="1218" height="189" key="GridCell.Tab.0.center/0.23.1280.773@0.23.1280.773" timestamp="1598945905198" />
-    <state width="1218" height="189" key="GridCell.Tab.0.left" timestamp="1598945905198">
+    <state width="1218" height="189" key="GridCell.Tab.0.center/0.23.1280.773@0.23.1280.773" timestamp="1599200994118" />
+    <state width="1218" height="189" key="GridCell.Tab.0.left" timestamp="1599200994117">
       <screen x="0" y="23" width="1280" height="773" />
     </state>
-    <state width="1218" height="189" key="GridCell.Tab.0.left/0.23.1280.773@0.23.1280.773" timestamp="1598945905198" />
-    <state width="1218" height="189" key="GridCell.Tab.0.right" timestamp="1598945905199">
+    <state width="1218" height="189" key="GridCell.Tab.0.left/0.23.1280.773@0.23.1280.773" timestamp="1599200994117" />
+    <state width="1218" height="189" key="GridCell.Tab.0.right" timestamp="1599200994118">
       <screen x="0" y="23" width="1280" height="773" />
     </state>
-    <state width="1218" height="189" key="GridCell.Tab.0.right/0.23.1280.773@0.23.1280.773" timestamp="1598945905199" />
+    <state width="1218" height="189" key="GridCell.Tab.0.right/0.23.1280.773@0.23.1280.773" timestamp="1599200994118" />
     <state x="142" y="38" key="SettingsEditor" timestamp="1598651458342">
       <screen x="0" y="23" width="1280" height="773" />
     </state>
@@ -209,6 +207,6 @@
     <SUITE FILE_PATH="coverage/MyReceipts$main.coverage" NAME="test Coverage Results" MODIFIED="1598720350725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MyReceipts$test.coverage" NAME="test Coverage Results" MODIFIED="1598945905189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MyReceipts$Flask.coverage" NAME="Flask Coverage Results" MODIFIED="1598176027664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/MyReceipts$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1598175613287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/MyReceipts$Unnamed.coverage" NAME="main Coverage Results" MODIFIED="1599200994096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
