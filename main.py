@@ -27,6 +27,6 @@ def image_info(img):
     nameimage = si.save(image, img.name, length)
     res = ocrToFile.ocr(nameimage)
     print(res)
-    return 'Image type : ' + res
+    return res
 
 anvil.server.wait_forever()

@@ -21,9 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="21ec86ef-3fa5-4259-b9bd-7ae51d33834c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Compressed_image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/Compressed_image.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ocrToFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocrToFile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saveImage.py" beforeDir="false" afterPath="$PROJECT_DIR$/saveImage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +150,8 @@
       <workItem from="1598562600118" duration="2480000" />
       <workItem from="1598603689215" duration="8644000" />
       <workItem from="1598720572051" duration="5054000" />
-      <workItem from="1598885002976" duration="25504000" />
+      <workItem from="1598885002976" duration="27358000" />
+      <workItem from="1601222115239" duration="217000" />
     </task>
     <servers />
   </component>
@@ -183,31 +183,31 @@
       <screen x="0" y="23" width="1280" height="773" />
     </state>
     <state x="371" y="153" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.773@0.23.1280.773" timestamp="1598884438385" />
-    <state width="1218" height="189" key="GridCell.Tab.0.bottom" timestamp="1599228519565">
+    <state width="1218" height="189" key="GridCell.Tab.0.bottom" timestamp="1601126722013">
       <screen x="0" y="23" width="1280" height="773" />
     </state>
-    <state width="1218" height="189" key="GridCell.Tab.0.bottom/0.23.1280.773@0.23.1280.773" timestamp="1599228519565" />
-    <state width="1218" height="189" key="GridCell.Tab.0.center" timestamp="1599228519564">
+    <state width="1218" height="189" key="GridCell.Tab.0.bottom/0.23.1280.773@0.23.1280.773" timestamp="1601126722013" />
+    <state width="1218" height="189" key="GridCell.Tab.0.center" timestamp="1601126722012">
       <screen x="0" y="23" width="1280" height="773" />
     </state>
-    <state width="1218" height="189" key="GridCell.Tab.0.center/0.23.1280.773@0.23.1280.773" timestamp="1599228519564" />
-    <state width="1218" height="189" key="GridCell.Tab.0.left" timestamp="1599228519564">
+    <state width="1218" height="189" key="GridCell.Tab.0.center/0.23.1280.773@0.23.1280.773" timestamp="1601126722012" />
+    <state width="1218" height="189" key="GridCell.Tab.0.left" timestamp="1601126722012">
       <screen x="0" y="23" width="1280" height="773" />
     </state>
-    <state width="1218" height="189" key="GridCell.Tab.0.left/0.23.1280.773@0.23.1280.773" timestamp="1599228519564" />
-    <state width="1218" height="189" key="GridCell.Tab.0.right" timestamp="1599228519565">
+    <state width="1218" height="189" key="GridCell.Tab.0.left/0.23.1280.773@0.23.1280.773" timestamp="1601126722012" />
+    <state width="1218" height="189" key="GridCell.Tab.0.right" timestamp="1601126722013">
       <screen x="0" y="23" width="1280" height="773" />
     </state>
-    <state width="1218" height="189" key="GridCell.Tab.0.right/0.23.1280.773@0.23.1280.773" timestamp="1599228519565" />
+    <state width="1218" height="189" key="GridCell.Tab.0.right/0.23.1280.773@0.23.1280.773" timestamp="1601126722013" />
     <state x="142" y="38" key="SettingsEditor" timestamp="1598651458342">
       <screen x="0" y="23" width="1280" height="773" />
     </state>
     <state x="142" y="38" key="SettingsEditor/0.23.1280.773@0.23.1280.773" timestamp="1598651458342" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MyReceipts$main.coverage" NAME="test Coverage Results" MODIFIED="1598720350725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MyReceipts$main.coverage" NAME="main Coverage Results" MODIFIED="1601222130778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MyReceipts$test.coverage" NAME="test Coverage Results" MODIFIED="1598945905189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MyReceipts$Flask.coverage" NAME="Flask Coverage Results" MODIFIED="1598176027664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/MyReceipts$Unnamed.coverage" NAME="main Coverage Results" MODIFIED="1599228519554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MyReceipts$Unnamed.coverage" NAME="main Coverage Results" MODIFIED="1601126722003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
